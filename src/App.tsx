@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import app from './firebase-config'
 
 function App() {
+
+  console.log('app:', app)
+
   return (
     <div className="App">
       <header className="App-header">
